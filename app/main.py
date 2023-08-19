@@ -15,4 +15,4 @@ def read_item(item_id: int, q: Optional[str] = None):
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", port=8080, host="0.0.0.0", log_level="info")
+    uvicorn.run("app.main:app", port=8080, host="0.0.0.0", log_level="info")
